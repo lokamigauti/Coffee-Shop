@@ -1,0 +1,58 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://addons/EXP-System-Dialog/Resource_BakedStory/EXP_BakedStory.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+TYPE = "EXP_Baked_Story"
+story = {
+1: {
+"nodes": {
+1: {
+"links": {
+0: 2
+},
+"text": "<speaker>Emilia</speaker>
+<dialog>Ola!</dialog>"
+},
+2: {
+"links": {
+0: 3,
+1: 4
+},
+"text": "<speaker>Emilia</speaker>
+<dialog>Tudo bem?</dialog>
+<choiceJSON>(\"Sim!\" : 0, \"Nao\" : 1)</choiceJSON>"
+},
+3: {
+"links": {
+0: 6
+},
+"text": "<speaker>Emilia</speaker>
+<dialog>Que bom!</dialog>"
+},
+4: {
+"links": {
+0: 6
+},
+"text": "<speaker>Emilia</speaker>
+<dialog>Lamento...</dialog>"
+},
+5: {
+"links": {
+0: 1
+},
+"text": "<start>"
+},
+6: {
+"links": {
+
+},
+"text": "<end>"
+}
+}
+}
+}
+names = {
+
+}
